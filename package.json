@@ -1,0 +1,26 @@
+{
+  "name": "ts-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmamorim/ts-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmamorim/ts-skeleton/issues"
+  },
+  "homepage": "https://github.com/mmamorim/ts-skeleton#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.21.0",
+    "typescript": "^4.6.3"
+  }
+}
